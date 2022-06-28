@@ -2,196 +2,232 @@ body{
     margin: 0;
     
   }
-  .my-name{
-    color: rgb(255, 0, 0);
-    font-size: 6.5vh;
-    margin: 2rem;
-  }
-  #container{
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
+.my-name{
+  color: rgb(255, 0, 0);
+  font-size: 6.5vh;
+  margin: 2rem;
+}
+#container{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
     
-  }
-  .small-headings{
-    font-size: 4.5vh;
-    font-weight: bold;
-    margin: 0;
-    color: rgb(255, 255, 255);
-  }
-  .softeng{
-    padding-bottom: 2em;
-  }
-  .nav{
-    font-size: 4.5vh;
-    padding: 0.5rem;
-    font-weight: bold;
-    color: white;
-  }
-  .socials{
-    font-size: 4.5vh;
-    padding: 0.5rem;
-    color: rgb(255, 0, 0);
-  }
-  .nav:hover{
-    text-decoration: transparent;
-    color: rgb(255, 0, 0);
-  }
-  .links{
-    margin-top: 2em;
-  }
-  .socials:hover{
-    color: white;
-  }
-  .text{
-    color: white;
-    font-size: 2.8vh;
-  }
-  .p-links{
-    text-decoration: none;
-    color: rgb(255, 0, 0);
-  }
-  .p-links:hover{
-    color: white;
-  }
-  .stack{
-    display: flex;
-    justify-content: center;
-    column-gap: 4rem;
-  }
-  .logo-size{
-    width: 15vh;
-    height: 15vh;
-  }
-  .text-centred{
-    color: white;
-    font-size: 1.5rem;
-    padding: 0;
-    border: 0;
-    text-align: center;
-  }
-  .stack-name{
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 0;
-    border: 0;
-    text-align: center;
-  }
-  .flex{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 1.5rem;
-    gap: 1.5rem;
-  }
-  .flex img:hover{
-    transform: scale(1.05);
-    transition: 0.5s all ease;
-    border-radius: 1rem;
-  }
-  .card{
-    justify-content: space-between;
-    padding: 0.2rem;
-  }
-  .height{
-    height: 25vh;
-  }
-  .socials-projects{
-    font-size: 2rem;
-    padding: 0.5rem;
-    color: white;
-  }
-  .socials-projects:hover{
-    color: rgb(255, 0, 0);
-  }
+}
+
+.small-headings{
+  font-size: 4.5vh;
+  font-weight: bold;
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+.softeng{
+  padding-bottom: 2em;
+}
+
+.nav{
+  font-size: 4.5vh;
+  padding: 0.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.socials{
+  font-size: 4.5vh;
+  padding: 0.5rem;
+  color: rgb(255, 0, 0);
+}
+
+.nav:hover{
+  text-decoration: transparent;
+  color: rgb(255, 0, 0);
+}
+
+.links{
+  margin-top: 2em;
+}
+
+.socials:hover{
+  color: white;
+}
+
+.text{
+  color: white;
+  font-size: 2.8vh;
+}
+
+.p-links{
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+
   
-  .contact{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin: auto;
-  }
-  textarea{
-    box-sizing: border-box;
-    width: 30vw;
-    resize: none;
-    padding: 0.5rem;
-    outline: none;
-    background-color: aqua;
-    color: rgb(0, 0, 0);
-  }
-  textarea:focus {
-    background-color: white;
-    outline: none;
-  }
-  textarea:focus::placeholder {
-    color: transparent;
-  }
-  .email,.name{
-    height: 4vh;
-  }
-  .email,.name,.message{
-    background-color: rgb(255, 255, 255);
-    width: 25vw;
-    padding: 0.2rem;
-    outline: none;
-    border: 1px solid #2d2f36;
-    font-weight: 600;
-  }
-  .message{
-    height: 10vh;
-  }
-  input:focus{
-    background-color: white;
-    outline: none;
-  }
-  input:focus::placeholder {
-    color: transparent;
-  }
-  .space{
-    margin-bottom: 0.5rem;
-  }
-  .section-headings{
-    color: white;
-  }
-  .send{
-    padding: 0.8rem;
-    width: 5rem;
-    color: #362d2d;
-    background-color: rgb(255, 255, 255);
-    outline: none;
-    border: 1px solid #2d2f36;
-    font-weight: 600;
-  }
-  .send:hover{
-    background-color: rgb(255, 0, 0);
-    color: #2d2f36;
-    cursor: pointer;
-    transition: 0.5s ease;
-  }
-  .footer{
-    color: white;
-    font-size: 2vh;
-    padding: 1vh;
-    font-weight: bold;
-    border: 0;
-    text-align: center;
-  }
-  .circleimg{
-    height: 200px;
-    width: 300px;
-    margin-right: 1550px;
-  }
+.p-links:hover{
+  color: white;
+}
+ 
+.stack{
+  display: flex;
+  justify-content: center;
+  column-gap: 4rem;
+}
+
+.logo-size{
+  width: 15vh;
+  height: 15vh;
+}
+
+.text-centred{
+  color: white;
+  font-size: 1.5rem;
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+  
+.stack-name{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+  
+.flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.5rem;
+  gap: 1.5rem;
+}
+  
+.flex img:hover{
+  transform: scale(1.05);
+  transition: 0.5s all ease;
+  border-radius: 1rem;
+}
+  
+.card{
+  justify-content: space-between;
+  padding: 0.2rem;
+}
+  
+.height{
+  height: 25vh;
+}
+  
+.socials-projects{
+  font-size: 2rem;
+  padding: 0.5rem;
+  color: white;
+}
+  
+.socials-projects:hover{
+  color: rgb(255, 0, 0);
+}
   
   
-  .tick {color: white;
-    font-size: 2.8vh;
-  }
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+textarea{
+  box-sizing: border-box;
+  width: 30vw;
+  resize: none;
+  padding: 0.5rem;
+  outline: none;
+  background-color: aqua;
+  color: rgb(0, 0, 0);
+}
   
+textarea:focus {
+  background-color: white;
+  outline: none;
+}
+  
+textarea:focus::placeholder {
+  color: transparent;
+}
+  
+.email,.name{
+  height: 4vh;
+}
+  
+.email,.name,.message{
+  background-color: rgb(255, 255, 255);
+  width: 25vw;
+  padding: 0.2rem;
+  outline: none;
+  border: 1px solid #2d2f36;
+  font-weight: 600;
+}
+  
+.message{
+  height: 10vh;
+}
+  
+input:focus{
+  background-color: white;
+  outline: none;
+}
+  
+input:focus::placeholder {
+  color: transparent;
+}
+  
+.space{
+  margin-bottom: 0.5rem;
+}
+  
+.section-headings{
+  color: white;
+}
+  
+.send{
+  padding: 0.8rem;
+  width: 5rem;
+  color: #362d2d;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  border: 1px solid #2d2f36;
+  font-weight: 600;
+}
+  
+.send:hover{
+  background-color: rgb(255, 0, 0);
+  color: #2d2f36;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+  
+.footer{
+  color: white;
+  font-size: 2vh;
+  padding: 1vh;
+  font-weight: bold;
+  border: 0;
+  text-align: center;
+}
+  
+.circleimg{
+  height: 200px;
+  width: 300px;
+  margin-right: 1550px;
+}
+  
+  
+.tick {color: white;
+  font-size: 2.8vh;
+}
+  
+
   
