@@ -84,7 +84,7 @@ body{
   font-size: 1.5rem;
   padding: 0;
   border: 0;
-  text-align: center;
+  text-align: top;
 }
   
 .stack-name{
@@ -225,9 +225,9 @@ input:focus::placeholder {
 }
   
   
-.tick {color: white;
+.tick {
+  color: white;
   font-size: 2.8vh;
 }
   
-
   
